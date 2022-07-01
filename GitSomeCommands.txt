@@ -1,0 +1,18 @@
+GITHUB Master
+1.	Git clone
+2.	Ls -la
+3.	$ git push origin HEAD:master
+4.	git config --global user.name "spiman9"
+5.	git commit -m "Second commit"
+6.	git show-ref
+7.	git config --global user.email prithambg333@gmail.com
+8.	git log
+NEVER EVER EVER
+1.	Store Passwords
+2.	Store API credentials
+3.	Stroe credit caeds
+
+
+9.	git checkout aff819074af321
+10.	git rm new.html -f
+
