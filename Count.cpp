@@ -1,7 +1,7 @@
 using namespace std;
 #include<bits/stdc++.h>
 
-
+// This is a Count sort
 int findMax(int A[] , int n)
 {
     int ans=0;
