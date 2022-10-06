@@ -1,19 +1,69 @@
-GITHUB Master
-1.	Git clone
-2.	Ls -la
-3.	$ git push origin HEAD:master
-4.	git config --global user.name "spiman9"
-5.	git commit -m "Second commit"
-6.	git show-ref
-7.	git config --global user.email prithambg333@gmail.com
-8.	git log
-NEVER EVER EVER
-1.	Store Passwords
-2.	Store API credentials
-3.	Stroe credit caeds
+GIT COMMANDS CHEETSHEET  
+
+git config --global user.name Pritham
+
+git config --global user.email prithambg333@gmail.com
+
+git init
+
+ls -lart
+
+git commit -m ‘INITIAL COMMIT’
+
+git add -A
+
+git status
+
+git checkout about.html (modified but have not saved to github recover)
+
+git checkout -f (all files recovered)
+
+git log (All Commits to see)
+
+git log -p -2 (last 2 Commit with  all  the details what you have commited)
+
+git diff (Compares the working area and the staging area)
+
+git diff --staged(compares the staging area to last commit)
+
+git commit -a -m “Commit without staging area” (without staging are commit itggit)
+
+git rm waste.html(Remove from the staging area)
+
+git status -s (short and sweet)
+
+touch .gitignore (the files are that have to be ignored)(add all files that have tom be ignored)
+
+touch mylogs.log
+
+BRANCHES MOST IMPORTANT THING IN GIT
+
+git branch feature1 (Add one more branch)
+
+git branch (see all the branches)
+
+git checkout feature1 (go to branch feature1)
+
+git checkout master(go to master)
+
+to merge the branches, come to master the
+git merge feature1
+
+git checkout -b flaskIntegration (making new brach and switching as well)
+
+WHAT IS GITHUB ???????????????????
+IT IS A HOSTING SERVICE WHICH IS USED FOR GIT REPOSITORY 
 
 
-9.	git checkout aff819074af321
-10.	git rm new.html -f
+git remote add origin https://github.com/spiman9/GIT-LEARNING.git
 
-git add <filename with path> --> git commit -m "Message" --> git push origin HEAD:master
+git remote
+
+git remote -v 
+
+key check -------- eval $(ssh-agent -s)
+
+
+
+
+
